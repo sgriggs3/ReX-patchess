@@ -1,0 +1,10 @@
+[versions]
+revanced-patcher = "19.1.0"
+smali = "3.0.3"
+gson = "2.10.1"
+
+[libraries]
+revanced-patcher = { module = "app.revanced:revanced-patcher", version.ref = "revanced-patcher" }
+smali = { module = "com.android.tools.smali:smali", version.ref = "smali" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+
